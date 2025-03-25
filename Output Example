@@ -1,12 +1,12 @@
 Prompt: Based on the following documents, answer the query.
 
 Documents:
-Document 1: Paris is the capital of France.
-Document 2: Rome is the capital of Italy.
-Document 3: Madrid is the capital of Spain.
+Document 1: The efficiency of XYZ engine is 90%
+Document 2: London is the capital of the United Kingdom.
+Document 3: Rome is the capital of Italy.
 Document 4: Berlin is the capital of Germany.
-Document 5: London is the capital of the United Kingdom.
+Document 5: Madrid is the capital of Spain.
 
-Query: What is France's capital?
+Query: Tell me about XYZ engine.
 
-Answer: According to Document 1, France's capital is Paris.
+Answer: According to Document 1, XYZ engine has an efficiency of 90%. That's all we know!
