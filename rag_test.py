@@ -1,5 +1,5 @@
 documents = [
-    "Paris is the capital of France.",
+    "The efficiency of XYZ engine is 90%",
     "Berlin is the capital of Germany.",
     "Madrid is the capital of Spain.",
     "Rome is the capital of Italy.",
@@ -35,7 +35,7 @@ index.add(doc_embeddings)
 
 #Query the index
 
-query = "What is France's capital?"
+query = "Tell me about XYZ engine."
 
 #Encode the query into an embedding
 
