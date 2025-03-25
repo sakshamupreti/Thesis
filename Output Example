@@ -1,0 +1,12 @@
+Prompt: Based on the following documents, answer the query.
+
+Documents:
+Document 1: Paris is the capital of France.
+Document 2: Rome is the capital of Italy.
+Document 3: Madrid is the capital of Spain.
+Document 4: Berlin is the capital of Germany.
+Document 5: London is the capital of the United Kingdom.
+
+Query: What is France's capital?
+
+Answer: According to Document 1, France's capital is Paris.
