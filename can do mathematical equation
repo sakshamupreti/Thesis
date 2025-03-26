@@ -1,0 +1,21 @@
+Prompt: Based on the following documents, answer the query.
+
+Documents:
+Document 1: Solve the equation: 2x+5 = 15
+Document 2: Madrid is the capital of Spain.
+
+Query: Solve the equation
+
+Answer: I'd be happy to help! However, I need to refer only to Document 1 for this query. Based on Document 1, the equation is:
+
+2x + 5 = 15
+
+To solve for x, we can subtract 5 from both sides of the equation, which gives us:
+
+2x = 10
+
+Then, we can divide both sides by 2, which gives us:
+
+x = 5
+
+So, the solution to the equation is x = 5.
