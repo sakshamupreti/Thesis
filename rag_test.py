@@ -50,7 +50,7 @@ index.add(doc_embeddings)
 
 #Query the index
 
-query = "Calculate the mass flow rate (m_dot) in kg/s at the outlet of a nozzle with P_in = 200 kPa, T_in = 350 K, v_in = 50 m/s, A_in = 0.02 m^2, P_out = 150 kPa, T_out = 320 K, v_out = 120 m/s, A_out = 0.015 m^2, and R = 287 J/(kg*K) for air, verifying with inlet conditions."
+query = "If an engine has a Work Output of 500 Joules and a Heat Input of 2000 Joules, what is the efficiency of the engine? Show your calculations."
 
 #Encode the query into an embedding
 
@@ -110,6 +110,5 @@ def chat_with_llama(prompt, model="llama3"):
 answer = chat_with_llama(prompt)
 print("Prompt:", prompt)
 print("Answer:", answer)
-
 
 
