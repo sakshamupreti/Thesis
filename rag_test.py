@@ -11,9 +11,12 @@ script_dir = os.path.dirname(os.path.abspath(__file__))
 # Define the directory containing the documents
 docs_directory = os.path.join(script_dir, "docs")
 
-# List all files in the directory
-doc_files = [f for f in os.listdir(docs_directory) if f.endswith('.txt')]
-print(f"Found files: {doc_files}")
+# List all files in the directory---dont really need "if statement" as the there are only .txt files in docs
+doc_files = []
+for f in os.listdir(docs_directory):
+    if f.endswith('.txt'):
+        doc_files.append(f)
+
 
 # Load a pre-trained sentence transformer model
 model = SentenceTransformer('all-MiniLM-L6-v2')
