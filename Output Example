@@ -1,12 +1,98 @@
+Found files: ['test1.txt', 'test2.txt']
+Loaded test1.txt: To compute the efficiency of an engine, use the fo...
+Loaded test2.txt: Natural Frequency and Critical Speed of a Simply S...
 Prompt: Based on the following documents, answer the query.
 
 Documents:
-Document 1: The efficiency of XYZ engine is 90%
-Document 2: London is the capital of the United Kingdom.
-Document 3: Rome is the capital of Italy.
-Document 4: Berlin is the capital of Germany.
-Document 5: Madrid is the capital of Spain.
+Document 1: To compute the efficiency of an engine, use the formula:
 
-Query: Tell me about XYZ engine.
+Efficiency (%) = (Work Output / Heat Input) × 100
 
-Answer: According to Document 1, XYZ engine has an efficiency of 90%. That's all we know!
+Where:
+- Work Output is the useful work done by the engine.
+- Heat Input is the total heat energy supplied to the engine.
+
+
+Example Question:
+If an engine has a Work Output of 500 Joules and a Heat Input of 2000 Joules, what is the efficiency of the engine? Show your calculations.
+Document 2: Natural Frequency and Critical Speed of a Simply Supported Beam
+
+The natural frequency of a simply supported beam is how fast it vibrates naturally, in radians per second (rad/s), called omega. For a circular cross-section, it depends on material and size. The first critical speed, in revolutions per minute (rpm), is the rotational speed where resonance occurs, based on omega.
+
+Formulas:
+1. Natural Frequency (omega in rad/s):
+   omega = (pi squared / L squared) * square root of ((E * I) / (rho * A))
+   Where:
+   - pi = 3.14159
+   - L = beam length in meters
+   - E = Youngs modulus in Pascals (Pa)
+   - I = moment of inertia in meters^4
+   - rho = density in kg/m^3
+   - A = cross-sectional area in meters^2
+
+2. Moment of Inertia (I) for circular cross-section:
+   I = (pi * d^4) / 64
+   Where d = diameter in meters
+
+3. Cross-Sectional Area (A) for circular cross-section:
+   A = (pi * d^2) / 4
+
+4. First Critical Speed (rpm):
+   Critical Speed = (omega * 60) / (2 * pi)
+
+
+   Guidelines to Solve for Mass Flow Rate on the Outlet of a Nozzle:
+
+   1. Understand the Problem:
+      - Identify the inlet conditions: pressure (P_in), temperature (T_in), velocity (v_in), and cross-sectional area (A_in).
+      - Identify the outlet conditions: pressure (P_out), temperature (T_out), velocity (v_out), and cross-sectional area (A_out).
+      - Ensure you have the fluid properties: density (rho) or specific gas constant (R) and molecular weight for gases.
+
+   2. Use the Continuity Equation:
+      - The mass flow rate (m_dot) is constant for steady flow:
+        m_dot = rho_in * A_in * v_in = rho_out * A_out * v_out
+
+   3. Calculate Density:
+      - For gases, use the ideal gas law:
+        rho = P / (R * T)
+        Where:
+        - P = pressure in Pascals (Pa)
+        - R = specific gas constant in J/(kg·K)
+        - T = temperature in Kelvin (K)
+
+   4. Solve for Outlet Mass Flow Rate:
+      - Calculate rho_out using outlet pressure and temperature.
+      - Use the continuity equation to find m_dot:
+        m_dot = rho_out * A_out * v_out
+
+   5. Verify Units:
+      - Ensure all units are consistent (e.g., SI units).
+      - Convert if necessary.
+
+   6. Additional Considerations:
+      - If compressibility effects are significant, use compressible flow equations.
+      - For isentropic flows, use isentropic relations to relate inlet and outlet conditions.
+
+   Example Formula:
+      m_dot = (P_out / (R * T_out)) * A_out * v_out
+
+
+
+
+
+
+Query: If an engine has a Work Output of 500 Joules and a Heat Input of 2000 Joules, what is the efficiency of the engine? Show your calculations.
+
+Answer: To answer this query, we can use Document 1: To compute the efficiency of an engine.
+
+Efficiency (%) = (Work Output / Heat Input) × 100
+
+Given:
+- Work Output = 500 Joules
+- Heat Input = 2000 Joules
+
+Calculation:
+Efficiency (%) = (500 J / 2000 J) × 100
+= 25%
+
+Therefore, the efficiency of the engine is 25%.
